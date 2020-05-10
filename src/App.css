@@ -2,6 +2,10 @@
   text-align: center;
   background: url("./images/cold-bg.jpg") bottom/cover no-repeat;
   transition: 0.4s ease-out;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 main {
@@ -9,8 +13,8 @@ main {
   min-width: 70vw;
   background-image: linear-gradient(
     to bottom,
-    rgba(13, 58, 155, 0.105),
-    rgba(35, 83, 28, 0.571)
+    rgba(6, 48, 92, 0.304),
+    rgba(176, 205, 33, 0.571)
   );
   padding: 25px;
 }
@@ -19,6 +23,10 @@ main {
   background: url("./images/warm-bg.jpg") center/cover no-repeat;
   text-align: center;
   transition: 0.4s ease-out;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .search-box {

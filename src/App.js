@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./App.css";
 
 const api = {
-  key: "2217cc15eb6a554f45cad29e907a78f5",
+  key: process.env.REACT_APP_OPEN_WEATHER_MAP_API,
   base: "https://api.openweathermap.org/data/2.5/",
 };
 
@@ -17,7 +17,6 @@ function App() {
         .then((result) => {
           setWeather(result);
           setQuery("");
-          console.log(result);
         });
     }
   };
